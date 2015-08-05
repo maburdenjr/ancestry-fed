@@ -52,7 +52,7 @@
                     <h3 id="subscription-header" role="heading">Let us help you discover your story</h3>
                     <p>Begin your free family tree with a few simple facts. We’ll help you discover a lot more. Start your
                        tree by subscribing today for a free trial.</p>
-                    <a href="#" class="btn secondary-btn" role="link">Subscribe Today</a>
+                    <a id="subscribe" href="#" class="btn secondary-btn" role="link">Subscribe Today</a>
                 </section>
             </aside>
         </div>
@@ -66,6 +66,42 @@
             <a href="#" role="link">Site Map</a>
         </nav>
     </footer>
+</div>
+<div id="modal-wrapper">
+    <section id="modal" role="dialog" aria-labelledby="modal-header">
+        <div class="modal-inner">
+            <header>
+                <h3 id="modal-header">Subscribe Today</h3>
+            </header>
+            <section>
+                <form id="subscribeForm">
+                    <div class="form-row">
+                        <div class="form-column left">
+                            <label for="firstName">Your first name</label>
+                            <input id="firstName" name="firstName" type="text">
+                        </div>
+                        <div class="form-column right">
+                            <label for="lastName">Your last name</label>
+                            <input id="lastName" name="lastName" type="text">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <label for="emailAddress">Your email</label>
+                        <input id="emailAddress" name="emailAddress" type="text">
+                    </div>
+                    <div class="form-row">
+                        <a class="btn primary-btn">Get Started</a>
+                    </div>
+                </form>
+                <footer role="contentinfo">
+                    By creating an account, you agree to <a href="#">Ancestry Terms and Conditions</a> and
+                    understand that your information will be used in accordance with our <a href="#">Privacy
+                    Statement</a>, including that we will send you emails about our service and special offers.
+                </footer>
+            </section>
+        </div>
+        <a id="close"></a>
+    </section>
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="scripts/vendor/jquery-1.11.3.min.js"><\/script>')</script>
