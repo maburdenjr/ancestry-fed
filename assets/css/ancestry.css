@@ -183,6 +183,7 @@ a:hover {
   height: 100%;
   background-color: #4A4A48;
   z-index: 999;
+  display: none;
 }
 #modal-wrapper #modal {
   position: relative;
@@ -265,6 +266,9 @@ a:hover {
   border: 1px solid #CBCBCB;
   padding: 5px;
   outline: none;
+}
+#modal-wrapper #modal .modal-inner section form input.error {
+  border: 1px solid #b50000;
 }
 #modal-wrapper #modal .modal-inner section footer a {
   text-decoration: underline;

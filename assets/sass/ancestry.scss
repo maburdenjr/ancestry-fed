@@ -208,6 +208,7 @@ a {
   height: 100%;
   background-color: #4A4A48;
   z-index: 999;
+  display: none;
 
   #modal {
     position:relative;
@@ -283,6 +284,9 @@ a {
             border: 1px solid #CBCBCB;
             padding: 5px;
             outline: none;
+            &.error {
+              border: 1px solid #b50000;
+            }
           }
         }
         footer {

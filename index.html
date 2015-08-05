@@ -77,20 +77,20 @@
                 <form id="subscribeForm">
                     <div class="form-row">
                         <div class="form-column left">
-                            <label for="firstName">Your first name</label>
-                            <input id="firstName" name="firstName" type="text">
+                            <label id="labelFirstName"  for="firstName">Your first name</label>
+                            <input id="firstName" name="firstName" type="text" aria-required="true" aria-labelledby="labelFirstsName">
                         </div>
                         <div class="form-column right">
-                            <label for="lastName">Your last name</label>
-                            <input id="lastName" name="lastName" type="text">
+                            <label id="labelLastName" for="lastName">Your last name</label>
+                            <input id="lastName" name="lastName" type="text" aria-required="true" aria-labelledby="labelLastName">
                         </div>
                     </div>
                     <div class="form-row">
-                        <label for="emailAddress">Your email</label>
-                        <input id="emailAddress" name="emailAddress" type="text">
+                        <label id="labelEmailAddress" for="emailAddress">Your email</label>
+                        <input id="emailAddress" name="emailAddress" type="text" aria-required="true" aria-labelledby="labelEmailAddress">
                     </div>
                     <div class="form-row">
-                        <a class="btn primary-btn">Get Started</a>
+                        <a id="getStarted" class="btn primary-btn">Get Started</a>
                     </div>
                 </form>
                 <footer role="contentinfo">
