@@ -56,7 +56,7 @@
         var errorMatch = false;
         ancestryForm.find('input').removeClass('error').removeAttr('aria-invalid');
         ancestryForm.find('input').each(function(index) {
-            if ($(this).val() == null || $(this).val() == "") {
+            if ($(this).val() == null || $(this).val().trim() == "") {
                 $(this).addClass('error');
                 $(this).attr('aria-invalid', 'true');
                 errorMatch = true;
