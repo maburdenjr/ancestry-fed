@@ -25,3 +25,8 @@ The Ancestry.com Front-End Development (FED) Assessment Test was designed to eva
 * Only hidden layer is the modal
 * Your comprehension of each element and style used when creating this assessment is expected
 
+## Screenshots
+
+![Screenshot](https://github.com/maburdenjr/ancestry-fed/blob/master/assets/images/screenshot.png)
+
+![Screenshot2](https://github.com/maburdenjr/ancestry-fed/blob/master/assets/images/screenshot2.png)
