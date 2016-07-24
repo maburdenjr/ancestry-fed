@@ -1,4 +1,4 @@
-### Ancestry.com FED Skills Assessment Test
+# Ancestry.com FED Skills Assessment Test
 
 The Ancestry.com Front-End Development (FED) Assessment Test was designed to evaluate a candidate’s professional skills and abilities in converting a design mockup into a semantically correct HTML webpage, identify strengths and weaknesses, and establish grounds for the technical interview following the coding exercise. 
 
