@@ -29,4 +29,4 @@ The Ancestry.com Front-End Development (FED) Assessment Test was designed to eva
 
 ![Screenshot](https://github.com/maburdenjr/ancestry-fed/blob/master/assets/images/screenshot.png)
 
-![Screenshot2](https://github.com/maburdenjr/ancestry-fed/blob/master/assets/images/screenshot2.png)
+![Modal Screenshot](https://github.com/maburdenjr/ancestry-fed/blob/master/assets/images/screenshot2.png)
