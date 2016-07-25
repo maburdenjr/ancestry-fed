@@ -12,7 +12,7 @@ The Ancestry.com Front-End Development (FED) Assessment Test was designed to eva
 * Cross browser compatibility (IE11+, FireFox, Chrome, Mobile)
 
 
-## Behaviroal Requirements
+## Behavioral Requirements
 
 * Modal opens from the “Subscribe Today” button on right side
 * Modal closes from the "X" in the top right of the modal
